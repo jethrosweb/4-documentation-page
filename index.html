@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Documentation Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <header>CSS Selectors</header>
+      
+        <ul id="navbar-list">
+          <li>
+            <a href="#Class" class="nav-link">Class</a>
+          </li>
+          <li>
+            <a href="#ID" class="nav-link">ID</a>
+          </li>
+          <li>
+            <a href="#Type" class="nav-link">Type</a>
+          </li>
+          <li>
+            <a href="#Attributes" class="nav-link">Attributes</a>
+          </li>
+          <li>
+            <a href="#Pseudo-classes" class="nav-link">Pseudo-classes</a>
+          </li>
+          <li>
+            <a href="#Other_selectors" class="nav-link">Other Selectors</a>
+          </li>
+        </ul>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS logo" id="logo" />
+      </nav>
+      
+      <main id="main-doc">
+        
+        <section class="main-section" id="Class">
+          
+          <header>Class</header>
+          <p>The CSS class selector matches elements based on the contents of their class attribute.</p>
+          <p>For example:</p>
+          <code>/* All elements with class="bold" */<br><br>.bold {<br><span class="indent">font-weight: bold;</span><br>}</code>
+          
+        </section>
+        
+        <section class="main-section" id="ID">
+          
+          <header>ID</header>
+          <p>The CSS ID selector matches an element based on the value of the element's id attribute.</p>
+          <p>For example:</p>
+          <code>/* All elements with id="green" */<br><br>#green {<br><span class="indent">background-color: green;</span><br>}</code>
+            
+        </section>
+        
+        <section class="main-section" id="Type">
+          
+          <header>Type</header>
+          <p>The CSS type selector selects all elements that have the given node name.</p>
+          <p>For example:</p>
+          <code>/* All p elements */<br><br>p {<br><span class="indent">color: black;</span><br>}</code>
+          
+        </section>
+        
+        <section class="main-section" id="Attributes">
+          
+          <header>Attributes</header>
+          <p>The CSS attribute selector matches elements based on the presence or value of a given attribute.</p>
+          <p>For example:</p>
+          <code>/* All input elements with type="text" */<br><br>input[type="text"] {<br><span class="indent">width: 400px;</span><br>}</code>
+          
+        </section>
+        
+        <section class="main-section" id="Pseudo-classes">
+          
+          <header>Pseudo-classes</header>
+          <p>A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).</p>
+          <p>For example:</p>
+          <code>/* Any button over which the users mousem is hovering */<br><br>button:hover {<br><span class="indent">opacity: 0.8;</span><br>}</code>
+          
+        </section>
+        
+        <section class="main-section" id="Other_selectors">
+          
+          <header>Other Selectors</header>
+          
+          <ul id="other-list">
+            <li>Universal selector</li>
+            <li>Descendent combinator</li>
+            <li>General sibling combinator</li>
+            <li>Adjacent sibling combinator</li>
+            <li>Pseduo-elements</li>
+          </ul>
+          
+        </section>
+        
+        <footer>
+          For more information, click <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">here</a>
+        </footer>
+        
+      </main>
+    
+</body>
+</html>
